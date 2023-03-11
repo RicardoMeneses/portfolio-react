@@ -280,7 +280,7 @@ const Home = () => {
   return (
     <>
       <section id='home'>
-        <div className='bg-[url("/img/bg.jpg")] bg-center bg-no-repeat bg-cover'>
+        <div className='bg-[url("/img/bg.webp")] bg-center bg-no-repeat bg-cover'>
           <div className='h-screen relative'>
             <div className='absolute top-0 left-0 h-full w-full bg-black/50'></div>
             <div className='h-full relative flex items-center px-10 md:px-56'>

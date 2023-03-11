@@ -11,7 +11,7 @@ const Presentation = () => {
     <div className=' bg-white dark:bg-darkblue dark:text-ghostwhite h-[410px] md:h-[380px] w-96 p-10 rounded-2xl text-darkblue text-center relative shadow-[-2px_2px_3px_0px_rgba(210,214,230,0.97)]'>
       <div className=' w-52 h-52 absolute border-deepskyblue border-4 rounded-full overflow-hidden -top-24 left-0 right-0 mx-auto'>
         <img
-          src='/img/me.png'
+          src='/img/me.webp'
           alt='Ricardo Meneses Morales'
           className='w-full h-full object-cover'
         />
