@@ -25,7 +25,7 @@ const Project: React.FC<ProyectProps> = ({ project, index }) => {
         ></div>
       </div>
       <div
-        className={`w-full md:w-1/2 text-center md:text-left ${
+        className={`w-full md:w-1/2 text-center md:text-left reveal ${
           index % 2 === 0 ? 'order-2' : 'order-1 md:text-right'
         } `}
       >

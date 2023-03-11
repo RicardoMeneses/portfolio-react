@@ -37,6 +37,18 @@
     padding: 3px 10px;
     border-radius: 10px;
   }
+
+  .reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2s all ease;
+  }
+
+  .reveal.activeElement {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 body {

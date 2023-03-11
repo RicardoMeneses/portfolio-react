@@ -295,7 +295,7 @@ const Home = () => {
             {t('about.title')}
           </h1>
           <div className='flex flex-col md:flex-row mt-10 gap-10 items-center justify-center'>
-            <div className='w-full md:w-1/2'>
+            <div className='w-full md:w-1/2 reveal'>
               <p className='text-base md:text-xl text-center text-darkblue dark:text-ghostwhite mb-5'>
                 {t('about.me')}
               </p>
@@ -305,7 +305,7 @@ const Home = () => {
               <h1 className='text-xl font-bold text-center text-darkblue dark:text-ghostwhite'>
                 {t('about.interests')}
               </h1>
-              <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-4 gap-5'>
+              <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-4 gap-5 reveal'>
                 {interests.map((interest) => (
                   <Interests key={interest.text} icon={interest.icon} title={interest.text} />
                 ))}
