@@ -16,12 +16,12 @@ const Project: React.FC<ProyectProps> = ({ project, index }) => {
         <img
           src={img}
           alt={title}
-          className='h-full w-full object-cover rounded-md block relative z-10 outline outline-darkblue outline-1'
+          className='h-full w-full object-cover rounded-md block relative z-10 ring-1 ring-darkblue'
         />
         <div
-          className={`z-0 h-40 md:h-[200px] lg:h-[300px] w-full outline outline-2 absolute top-3 ${
+          className={`z-0 h-40 md:h-[200px] lg:h-[300px] w-full ring-2 absolute top-3 ${
             index % 2 === 0 ? '-left-4' : '-right-4'
-          }  outline-deepskyblue rounded-md`}
+          }  ring-deepskyblue rounded-md`}
         ></div>
       </div>
       <div
@@ -37,7 +37,7 @@ const Project: React.FC<ProyectProps> = ({ project, index }) => {
           target='_blank'
           className={`flex gap-2 items-center ${
             index % 2 === 0 ? '' : 'float-right'
-          } text-ghostwhite dark:text-darkblue justify-center px-3 py-2 w-full md:w-fit outline outline-deepskyblue hover:bg-deepskyblue hover:text-white`}
+          } text-ghostwhite dark:text-darkblue justify-center px-3 py-2 w-full md:w-fit ring-2 ring-deepskyblue hover:bg-deepskyblue hover:text-white`}
         >
           {t('projects.see')} <RiArrowRightLine />
         </Link>

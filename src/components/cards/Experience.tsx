@@ -15,7 +15,7 @@ const Experience: React.FC<ExperienceProps> = ({ type, items }) => {
           className='border-l-4 border-l-deepskyblue pl-5 lg:px-8 relative text-ghostwhite dark:text-darkblue'
           key={index}
         >
-          <div className='absolute w-7 h-7 bg-white flex items-center justify-center top-0 -left-4 rounded-full outline outline-deepskyblue'>
+          <div className='absolute w-7 h-7 bg-white flex items-center justify-center top-0 -left-4 rounded-full ring-2 ring-deepskyblue'>
             {type === 'work' ? (
               <MdWork className=' text-darkblue' />
             ) : (

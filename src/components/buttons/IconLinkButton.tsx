@@ -7,7 +7,7 @@ const IconLinkButton: React.FC<LinkButtonProps> = ({ link, icon }) => {
     <Link
       to={link}
       target='_blank'
-      className='w-10 h-10 outline outline-deepskyblue rounded-full transition-colors hover:outline-ghostwhite hover:text-white hover:bg-deepskyblue flex items-center justify-center'
+      className='w-10 h-10 ring-2 ring-deepskyblue rounded-full transition-colors hover:ring-ghostwhite hover:text-white hover:bg-deepskyblue flex items-center justify-center'
     >
       {React.createElement(icon, { className: 'text-2xl' })}
     </Link>
