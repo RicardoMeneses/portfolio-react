@@ -13,6 +13,7 @@ import {
   FaPeopleArrows,
   FaShopify,
   FaWordpress,
+  FaRegArrowAltCircleDown,
 } from 'react-icons/fa';
 import { IoLogoGameControllerB, IoLogoJavascript } from 'react-icons/io';
 import {
@@ -277,12 +278,24 @@ const Home = () => {
     },
   ];
 
+  const handleClickScroll = () => {
+    const element = document.getElementById('aboutme');
+    if (element) {
+      // 👇 Will scroll smoothly to the top of the next section
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <>
       <section id='home'>
         <div className='bg-[url("/img/bg.webp")] bg-center bg-no-repeat bg-cover'>
           <div className='h-screen relative'>
             <div className='absolute top-0 left-0 h-full w-full bg-black/50'></div>
+            <FaRegArrowAltCircleDown
+              className='absolute text-white bottom-10 animate-pulse text-4xl cursor-pointer z-20 left-0 right-0 mx-auto'
+              onClick={handleClickScroll}
+            />
             <div className='h-full relative flex items-center px-10 md:px-56'>
               <Presentation />
             </div>
