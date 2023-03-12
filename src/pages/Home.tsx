@@ -293,7 +293,7 @@ const Home = () => {
           <div className='h-screen relative'>
             <div className='absolute top-0 left-0 h-full w-full bg-black/50'></div>
             <FaRegArrowAltCircleDown
-              className='absolute text-white bottom-10 animate-pulse text-4xl cursor-pointer z-20 left-0 right-0 mx-auto'
+              className='absolute text-white bottom-32 md:bottom-10 animate-pulse text-4xl cursor-pointer z-20 left-0 right-0 mx-auto'
               onClick={handleClickScroll}
             />
             <div className='h-full relative flex items-center px-10 md:px-56'>
