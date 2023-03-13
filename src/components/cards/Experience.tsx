@@ -22,10 +22,10 @@ const Experience: React.FC<ExperienceProps> = ({ type, items }) => {
               <IoIosSchool className=' text-darkblue' />
             )}
           </div>
-          <p className='mb-5'>{item.years}</p>
+          <p className='mb-5 text-sm'>{item.years}</p>
           <p className='font-bold'>{item.title}</p>
           {item.name && <p className='text-xs mb-2'>{item.name}</p>}
-          <p className='pb-5'>{item.description}</p>
+          <p className='pb-5 mt-2'>{item.description}</p>
         </div>
       ))}
     </div>

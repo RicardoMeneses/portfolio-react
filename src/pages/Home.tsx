@@ -93,16 +93,21 @@ const Home = () => {
 
   const labor = [
     {
-      years: '2018-2019',
+      years: t('resume.seoDate'),
       title: t('resume.seo'),
       name: 'Sube Agencia Digital',
       description: t('resume.seoDescription'),
     },
     {
-      years: '2019-2022',
+      years: t('resume.raccoonDate'),
       title: t('home.developer'),
       name: 'Raccoon Studio',
       description: t('resume.raccoon'),
+    },
+    {
+      years: t('resume.freelanceDate'),
+      title: t('resume.freelance'),
+      description: t('resume.freelanceDescription'),
     },
   ];
 
