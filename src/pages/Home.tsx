@@ -315,7 +315,7 @@ const Home = () => {
           <div className='flex flex-col md:flex-row mt-10 gap-10 items-center justify-center'>
             <div className='w-full md:w-1/2 reveal'>
               <p className='text-base md:text-xl text-center text-darkblue dark:text-ghostwhite mb-5'>
-                {t('about.me')}
+                jnksjndfjnsdf
               </p>
               <DownloadCv />
             </div>
